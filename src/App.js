@@ -1,4 +1,5 @@
 import './styles/tailwind.output.css';
+import 'firebase/auth';
 
 import React, { Suspense } from 'react';
 import { AuthCheck } from 'reactfire';

@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@firebase/app": "^0.5.4",
-    "@firebase/util": "^0.2.40",
+    "@firebase/app": "^0.6.9",
+    "@firebase/util": "^0.3.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@fortawesome/react-fontawesome": "^0.1.11",
