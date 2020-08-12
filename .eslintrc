@@ -23,7 +23,7 @@
       "experimentalObjectRestSpread": true
     }
   },
-  "plugins": ["react", "react-hooks", "jsx-a11y", "prettier"],
+  "plugins": ["react", "react-hooks", "jsx-a11y", "prettier", "simple-import-sort"],
   "rules": {
     "react/jsx-filename-extension": [
       1,
@@ -35,7 +35,10 @@
     "react-hooks/exhaustive-deps": "warn",
     "no-console": "off",
     "react/prop-types": 0,
-    "prettier/prettier": ["error"]
+    "prettier/prettier": ["error"],
+    "sort-imports": "off",
+    "import/order": "off",
+    "simple-import-sort/sort": "error"
   },
   "globals": {
     "window": true,
